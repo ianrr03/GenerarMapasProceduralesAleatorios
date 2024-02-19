@@ -7,7 +7,7 @@ public class Procedural : MonoBehaviour
 
     [SerializeField] int widht; //Anchura
     [SerializeField] int height; //altura
-    [SerializeField] GameObject Tierra;
+    [SerializeField] GameObject dirt;
     [SerializeField] GameObject Grass;
     [SerializeField] GameObject rock;
     [SerializeField] int minRockDistance;
@@ -42,7 +42,7 @@ public class Procedural : MonoBehaviour
                 }
                 else
                 {
-                    spawnObj(Tierra, x, y); 
+                    spawnObj(dirt, x, y); 
                 }
 
             if(totalRockSpawnDistance== height)
